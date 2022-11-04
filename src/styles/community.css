@@ -1,0 +1,110 @@
+.community{
+    margin-top: 12%;
+}
+.content1{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.sub-head{
+    color: #001AFF;
+}
+
+.comm-head-sub{
+    margin-top: -2%;
+}
+
+.category{
+    margin-top: 8%;
+    margin-left: 8%;
+}
+
+.ellipse{
+    margin-right: 10%;
+}
+
+.hackathon{
+    position: absolute;
+    margin-top: -17.5%;
+    margin-left: 6.7%;
+}
+
+.bootcamp{
+    position: absolute;
+    margin-top: -17.5%;
+    margin-left: 36.3%;
+}
+
+.internship{
+    position: absolute;
+    margin-top: -17.5%;
+    margin-left: 65.5%;
+}
+
+.hack{
+    color: #0029FF;
+}
+
+.boot{
+    color: #0029FF;
+}
+
+.intern{
+    color: #0029FF;
+}
+
+.part{
+    color: #29009D;
+    font-size: 21px;
+}
+
+.build{
+    color: #29009D;
+    font-size: 21px;
+}
+
+.work{
+    color: #29009D;
+    font-size: 21px;
+}
+
+.learn1{
+    font-size: 21px;
+}
+.learn2{
+    font-size: 21px;
+}
+.learn3{
+    font-size: 21px;
+}
+
+.win{
+    font-size: 21px;
+}
+.together{
+    font-size: 21px;
+}
+
+.know1{
+    color: #FF0000;
+    text-decoration: underline;
+    font-weight: 700;
+    font-size: 18px;
+}
+.know2{
+    color: #FF0000;
+    text-decoration: underline;
+    font-size: 18px;
+}
+.know3{
+    color: #FF0000;
+    text-decoration: underline;
+    font-size: 18px;
+}
+
