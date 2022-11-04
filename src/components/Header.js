@@ -3,13 +3,14 @@ import d2d from "../Images/D2D.png";
 import one from "../Images/d2d4 1.png";
 import two from "../Images/d2d4 2.png";
 import three from "../Images/d2d4 3.png";
-import dot from "../Images/Ellipse 8.png";
-import dot1 from "../Images/Ellipse 9.png";
+import dot from "../Images/dots.png";
+import left from "../Images/lp-left.png";
+import right from "../Images/lp-right.png";
 import "../styles/header.css";
 
 const Header = () => {
   return (
-    <div>
+    <div id="header">
       <nav className="navigation container">
         <div className="nav-brand">
           <img className="nav-brand-logo" src={d2d} alt="logo" />
@@ -30,9 +31,8 @@ const Header = () => {
         </ul>
       </nav>
       <img className="header-dot" src={dot} alt="dot" />
-      <img className="header-dot1" src={dot1} alt="dot" />
-      <img className="header-dot2" src={dot1} alt="dot" />
       <header className="header container">
+        <img className="left" src={left} alt="pic" />
         <div className="header-head">
           <div className="header-heading">
             Develop and Grow with D2D
@@ -47,7 +47,9 @@ const Header = () => {
           <img className="header-img-2" src={two} alt="pic" />
           <img className="header-img-3" src={three} alt="pic" />
         </div>
+        <img className="right" src={right} alt="pic" />
       </header>
+      
     </div>
   )
 }
