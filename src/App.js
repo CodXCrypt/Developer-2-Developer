@@ -4,6 +4,7 @@ import Community from './components/Community';
 import Header from "./components/Header";
 import Initiative from "./components/Initiative";
 import Footer from "./components/Footer";
+import Contact from "./components/Contact";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Initiative />
       <Community />
       <Collaboration />
+      <Contact />
       <Footer />
     </div>
   )
