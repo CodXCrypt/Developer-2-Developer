@@ -5,9 +5,10 @@ import "../styles/community.css";
 function Community() {
     return(
         <div className="community">
-            <div className="content1">
+            <div className="heading">
                 <h1 className="comm-head">Join our <span className="sub-head">Community</span> to </h1>
                 <h1 className="comm-head-sub">connect with great minds</h1>
+            </div>    
                 <div className="category">
     
                         <div className="hackathon">
@@ -40,7 +41,7 @@ function Community() {
                                 </div>
                         </div>
                 </div>
-            </div>
+            
         </div>
     )
 }
