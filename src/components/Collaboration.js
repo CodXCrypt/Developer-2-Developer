@@ -1,5 +1,6 @@
 import React from "react";
 import side from "../Images/Collaborations_Left.png";
+import sideR from "../Images/Collaborations_right.png"
 import partner from "../Images/D2d 4.png";
 import "../styles/collaboration.css";
 
@@ -14,6 +15,7 @@ function Collaboration() {
                     <img className="partner-img" src={partner} alt="partner" />
                     <img className="partner-img" src={partner} alt="partner" />
                     <img className="partner-img" src={partner} alt="partner" />
+                    <img className="side-R" src={sideR} alt="sideR" />
                 </div>
             </div>
         </div>
