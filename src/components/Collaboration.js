@@ -8,7 +8,6 @@ import "../styles/collaboration.css";
 function Collaboration() {
     return(
         <div className="collab">
-            <div className="content">
                 <h1 className="c-head">Our <span className="sub">Collaborations</span></h1>
                 <div className="partner">
                     <img className="side" src={side} alt="side" />
@@ -17,7 +16,6 @@ function Collaboration() {
                     <img className="partner-img" src={partner} alt="partner" />
                     <img className="side-R" src={sideR} alt="sideR" />
                 </div>
-            </div>
         </div>
     )
 }
